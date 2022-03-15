@@ -2,7 +2,7 @@
 
 ## Description
 
-Inspired by the UColor model proposed by Li [1], we reimplimented the model using a newer version of Tensorflow. At the same time, we made some changes to the model including changing the input color spaces HSV to YCbCr.
+The main goal of this algorithm is to use deep learning architectures such as ResNet, Squeeze'N'Exciation alongside with the physical properties of underwater images to restore and enhance the visibility and the naturalness of the images. Inspired by the UColor model proposed by Li [1], we reimplimented the model and at the same time changed the input color spaces HSV to YCbCr.
 
 ![Comparisons between 2 methods](https://github.com/hathaison0706/Ucolor_reimplimentation/blob/main/figure1.png?raw=true)
 
