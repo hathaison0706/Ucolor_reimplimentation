@@ -5,57 +5,43 @@
 Inspired by the UColor model proposed by Li [1], we reimplimented the model using a newer version of Tensorflow. At the same time, we made some changes to the model including changing the input color spaces HSV to YCbCr.
 
 The code can be found at: 
+```
+https://drive.google.com/drive/folders/1Bne3h68H1SZLawvp3pNt8e2aOdEuuzCw?usp=sharing
+```
 
-## Getting Started
+## Usage
 
 ### Dependencies
 
-Python 3.0, Tensorflow 2.7.0
+Python 3.0, Tensorflow 2.7.0 , CUDA 11.2
 
-### Installing
+### Testing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+1. Use Colab to run the code
+2. Put all testing images in the "/testing_input" folder and the depth map in the "/testing_depth" folder, make sure all images are in .png format
+3. Run MAIN_TEST.ipynb
+4. The results will be found in "/testing_result" folder
 
-### Executing program
+Extra testing data can be found in "/DATA" folder
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
 
-## Help
+### Training
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+1. Use Colab to run the code
+2. Run MAIN_TRAIN_YCBCR.ipynb
+3. The checkpoint will be updated in the "/checkpoint" folder. One training graph will be included at the end of training
 
-## Authors
 
-Contributors names and contact info
+## Reference
+[1.] C. Li, S. Anwar, J. Hou, R. Cong, C. Guo, and W. Ren, "Underwater Image Enhancement via Medium Transmission-Guided Multi-Color Space Embedding," IEEE Trans Image Process, vol. 30, pp. 4985-5000, 2021, doi: 10.1109/TIP.2021.3076367
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is open sourced under MIT license.e - see the LICENSE.md file for details
 
-## Acknowledgments
+## Help
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+Any questions please contact Thai Son Ha at hathaison0706@gmail.com
+
+
