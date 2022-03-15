@@ -4,7 +4,7 @@
 
 Inspired by the UColor model proposed by Li [1], we reimplimented the model using a newer version of Tensorflow. At the same time, we made some changes to the model including changing the input color spaces HSV to YCbCr.
 
-![Comparisons between 2 methods](https://github.com/hathaison0706/Ucolor_reimplimentation/figure1.png?raw=true)
+![Comparisons between 2 methods](https://github.com/hathaison0706/Ucolor_reimplimentation/blob/main/figure1.png?raw=true)
 
 The code can be found at: 
 ```
