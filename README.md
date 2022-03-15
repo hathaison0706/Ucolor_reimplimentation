@@ -40,7 +40,7 @@ Extra testing data can be found in "/DATA" folder
 
 ## License
 
-This project is open sourced under MIT license.e - see the LICENSE.md file for details
+This project is open sourced under MIT license - see the LICENSE.md file for details
 
 ## Help
 
