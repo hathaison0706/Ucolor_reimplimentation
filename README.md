@@ -4,14 +4,13 @@
 
 Inspired by the UColor model proposed by Li [1], we reimplimented the model using a newer version of Tensorflow. At the same time, we made some changes to the model including changing the input color spaces HSV to YCbCr.
 
-![alt text](https://drive.google.com/file/d/1XUYWVZs9ySjjkqPC8HEwb7am9NYtdnbv/view)
+The code can be found at: 
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+Python 3.0, Tensorflow 2.7.0
 
 ### Installing
 
